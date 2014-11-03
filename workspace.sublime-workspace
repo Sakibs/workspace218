@@ -1,0 +1,994 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"name",
+				"nameToAbbr"
+			],
+			[
+				"state",
+				"stateSelectList"
+			],
+			[
+				"key",
+				"keySet"
+			],
+			[
+				"abbr",
+				"abbrToName"
+			],
+			[
+				"mat",
+				"match_found"
+			],
+			[
+				"pre_file_data",
+				"pre_file_data_array"
+			],
+			[
+				"pre",
+				"pre_file_data_array"
+			],
+			[
+				"pos",
+				"post_file_second_col"
+			],
+			[
+				"prefi",
+				"pre_file_second_col"
+			],
+			[
+				"post",
+				"post_file"
+			],
+			[
+				"pref",
+				"pre_file_data"
+			],
+			[
+				"pre_",
+				"pre_test_file"
+			],
+			[
+				"no",
+				"nocbreak"
+			],
+			[
+				"in",
+				"initscr"
+			],
+			[
+				"high",
+				"high_entropy_post_first_loss_loss_rate"
+			],
+			[
+				"hig",
+				"high_entropy_first_packet_loss"
+			],
+			[
+				"hi",
+				"high_entropy_loss_rate"
+			],
+			[
+				"low",
+				"low_entropy_post_first_loss_loss_rate"
+			],
+			[
+				"output",
+				"output_file"
+			],
+			[
+				"get",
+				"get_post_loss_rate_single_experiment"
+			],
+			[
+				"ns",
+				"ns3_output_file"
+			],
+			[
+				"ns_outp",
+				"ns_output_path"
+			],
+			[
+				"data",
+				"dataRates"
+			],
+			[
+				"ta",
+				"tabInfo"
+			],
+			[
+				"curr",
+				"currentTitle"
+			],
+			[
+				"firs",
+				"firstTabTitle"
+			],
+			[
+				"act",
+				"active"
+			],
+			[
+				"tabs",
+				"tabs"
+			],
+			[
+				"remove",
+				"remove_ids"
+			],
+			[
+				"sepaar",
+				"separation_packet_train_length"
+			],
+			[
+				"num",
+				"num_of_apt_priority_probes"
+			],
+			[
+				"activ",
+				"active_info"
+			],
+			[
+				"tab",
+				"tabInfo"
+			],
+			[
+				"close",
+				"closeAllAndActivate"
+			],
+			[
+				"last",
+				"lastTabs"
+			],
+			[
+				"info",
+				"infoCell"
+			],
+			[
+				"insert",
+				"insertCell"
+			],
+			[
+				"las",
+				"lastOpenTable"
+			],
+			[
+				"saveLas",
+				"saveLastOpenTabs"
+			],
+			[
+				"sess",
+				"sessionData"
+			],
+			[
+				"session",
+				"sessionData"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"ses",
+				"sessionName"
+			],
+			[
+				"ac",
+				"activeTabs"
+			],
+			[
+				"acti",
+				"active_name"
+			],
+			[
+				"creat",
+				"createElement"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"create",
+				"createTextNode"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"tabsL",
+				"tabsList"
+			],
+			[
+				"sesh",
+				"seshName"
+			],
+			[
+				"add",
+				"addRowToTable"
+			],
+			[
+				"new",
+				"newtabs"
+			],
+			[
+				"save",
+				"saved_sessions"
+			],
+			[
+				"saved",
+				"saved_sessions"
+			],
+			[
+				"sav",
+				"saved_sessions"
+			],
+			[
+				"remov",
+				"removeSession"
+			],
+			[
+				"top",
+				"text-top"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"tit",
+				"titleItemName"
+			],
+			[
+				"sessi",
+				"sessionData"
+			],
+			[
+				"open",
+				"open_tabs"
+			],
+			[
+				"active",
+				"activeTabs"
+			],
+			[
+				"ope",
+				"open_tabs"
+			],
+			[
+				"is",
+				"is_empty"
+			],
+			[
+				"init",
+				"init_setup"
+			],
+			[
+				"ini",
+				"init_setup"
+			],
+			[
+				"li",
+				"li_elem"
+			],
+			[
+				"name_",
+				"name_box"
+			],
+			[
+				"CSS",
+				"cssCode"
+			],
+			[
+				"my",
+				"myTestVar"
+			],
+			[
+				"m",
+				"myTestVar"
+			],
+			[
+				"deb",
+				"debugDiv"
+			],
+			[
+				"de",
+				"debugDiv"
+			],
+			[
+				"list",
+				"listTabs"
+			],
+			[
+				"par",
+				"newParagraph"
+			],
+			[
+				"rig",
+				"right_arr"
+			],
+			[
+				"com",
+				"combined_grid"
+			],
+			[
+				"right",
+				"right_arr"
+			],
+			[
+				"cen",
+				"cen_data"
+			],
+			[
+				"su",
+				"sumPopTask"
+			],
+			[
+				"sub",
+				"sub_box"
+			],
+			[
+				"getc",
+				"getCoordsContainer"
+			],
+			[
+				"wh",
+				"wh_vals"
+			],
+			[
+				"xy",
+				"xy_vals"
+			],
+			[
+				"the",
+				"thebox"
+			],
+			[
+				"lef",
+				"left_pair"
+			],
+			[
+				"righ",
+				"right_pair"
+			],
+			[
+				"iNte",
+				"Integer"
+			],
+			[
+				"inte",
+				"Integer"
+			],
+			[
+				"en",
+				"enclosing_box"
+			],
+			[
+				"Rec",
+				"Rectangle"
+			],
+			[
+				"REc",
+				"Rectangle"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"Cen",
+				"CensusData"
+			],
+			[
+				"y",
+				"y_val"
+			],
+			[
+				"x",
+				"x_val"
+			],
+			[
+				"grid",
+				"grid"
+			],
+			[
+				"to",
+				"topbox"
+			],
+			[
+				"gri",
+				"gridx"
+			],
+			[
+				"pl",
+				"population"
+			],
+			[
+				"cens",
+				"census_data"
+			],
+			[
+				"box",
+				"box_total"
+			],
+			[
+				"imp",
+				"implementation_class"
+			],
+			[
+				"imple",
+				"implementation_class"
+			],
+			[
+				"v",
+				"VersionOne"
+			],
+			[
+				"impl",
+				"implementation_class"
+			],
+			[
+				"po",
+				"PopQueryAPI"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"next",
+				"nextfun"
+			],
+			[
+				"check",
+				"checkVal"
+			],
+			[
+				"Em",
+				"EmptyFun"
+			],
+			[
+				"fourlev",
+				"four_levels_rpn"
+			],
+			[
+				"sy",
+				"System"
+			],
+			[
+				"four",
+				"four_levels"
+			],
+			[
+				"Bin",
+				"BinOp"
+			],
+			[
+				"ti",
+				"TIMES"
+			],
+			[
+				"Nu",
+				"Num"
+			],
+			[
+				"Times",
+				"TIMES"
+			],
+			[
+				"RPN",
+				"RPNExp"
+			],
+			[
+				"eva",
+				"eval"
+			],
+			[
+				"aex",
+				"aexp3opt"
+			],
+			[
+				"Plus",
+				"PLUS"
+			],
+			[
+				"Min",
+				"MINUS"
+			],
+			[
+				"n",
+				"Num"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ta_example/multipath-topo.py",
+			"settings":
+			{
+				"buffer_size": 4961,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mininet/examples/emptynet.py",
+			"settings":
+			{
+				"buffer_size": 960,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Sakib/Dropbox/cs170a/disc_4_notes.txt",
+		"/C/Users/Sakib/Documents/get-pip.py",
+		"/Users/skb_shak/Dropbox/Simul8/new api query urls",
+		"/Users/skb_shak/Dropbox/eng112/eng 112 exam review",
+		"/Users/skb_shak/Dropbox/cs133/hadoop notes",
+		"/Users/skb_shak/Dropbox/eng112/BPCritiques",
+		"/Users/skb_shak/Dropbox/traffic school notes",
+		"/Users/skb_shak/Dropbox/eng112/notes",
+		"/Users/skb_shak/Dropbox/Simul8/work notes",
+		"/Users/skb_shak/Dropbox/cs133/lab3/src/run_dwt3d.tcl",
+		"/Users/skb_shak/Downloads/StateUtils.java",
+		"/Users/skb_shak/Documents/code runner/Java/StateUtils.java",
+		"/Users/skb_shak/Documents/code runner/Java/IdenticalStringSets.java",
+		"/Users/skb_shak/Downloads/IXL-swe-job-test (1).txt",
+		"/Users/skb_shak/Downloads/identicalStringSets.java",
+		"/Users/skb_shak/Dropbox/so_terminal/ncurses.py",
+		"/Users/skb_shak/Dropbox/so_terminal/nfun.py",
+		"/Users/skb_shak/Dropbox/ns3 analysis scripts/ns3AnalyzeCompression.py",
+		"/Users/skb_shak/Dropbox/ns3 analysis scripts/check matching script/check_mathching_script.py",
+		"/Users/skb_shak/Games/Introversion Src/DWMWDS/trunk/darwinia/docs/obsolete/todo 7th july 2003.txt",
+		"/Users/skb_shak/Library/Caches/Metadata/Safari/History/file:%2F%2F%2FApplications%2FPOWERPREP%2520II%2FPOWERPREP%2520II.app%2FContents%2Fdocs%2Fevaluating.html.webhistory",
+		"/Users/skb_shak/Library/Caches/Metadata/Safari/History/https:%2F%2Fwww.facebook.com%2Fphoto.php?fbid=435765253120736&set=t.634782391&type=1&theater.webhistory",
+		"/Users/skb_shak/Documents/so_terminal/index.html",
+		"/Users/skb_shak/Dropbox/ns3 analysis scripts/analyzeNS3.py",
+		"/Users/skb_shak/Downloads/w2/2_share.c",
+		"/Users/skb_shak/Downloads/w2/3_norm.c",
+		"/Users/skb_shak/Downloads/w2/1_helloworld.c",
+		"/Users/skb_shak/Games/Introversion Src/DWMWDS/trunk/_HUMBLE BUNDLE README.txt ",
+		"/Users/skb_shak/Dropbox/z-past classes/cs131/hw2.ml",
+		"/Users/skb_shak/Downloads/Fix-the-bugs_testcases/output000.txt",
+		"/Users/skb_shak/Downloads/Fix-the-bugs_testcases/input000.txt",
+		"/Users/skb_shak/Dropbox/z-past classes/cs131/rec_library.ml",
+		"/Users/skb_shak/Dropbox/cs133/hw1.txt",
+		"/Users/skb_shak/Downloads/moneeza.mian",
+		"/Users/skb_shak/Dropbox/Grad school apps/gradschoolaccts.txt",
+		"/Users/skb_shak/Dropbox/cs133/hw1",
+		"/Users/skb_shak/Dropbox/TODO",
+		"/Users/skb_shak/Dropbox/eng112/Shaikh_Sakib_Bio.txt",
+		"/Users/skb_shak/Dropbox/My Books/SFML-Game-Development/02_Resources/Include/Book/ResourceHolder.inl",
+		"/Users/skb_shak/Dropbox/chrome extensions/Sessions/code.js",
+		"/Users/skb_shak/Dropbox/chrome extensions/Sessions/jquery-effects.js",
+		"/Users/skb_shak/Dropbox/sessionData backup",
+		"/Users/skb_shak/Dropbox/Grad school apps/Transcript addresses",
+		"/Users/skb_shak/Downloads/LAB5_Sakib_Sheikh_Matin_Fouladi/LAB5_Sakib_Sheikh_Matin_Fouladi/fsm.vhd",
+		"/Users/skb_shak/Dropbox/Simul8/Course reserve bugs",
+		"/Users/skb_shak/Dropbox/cs136/lab_6/syn_output.txt",
+		"/Users/skb_shak/Dropbox/cs136/lab_6/no_syn_output.txt",
+		"/Users/skb_shak/Dropbox/cs136/lab_6/chaos analysis/no_syn_analysis/index.text",
+		"/Users/skb_shak/Dropbox/chrome extensions/Sessions/last cleaned code.js",
+		"/Users/skb_shak/Dropbox/Grad school apps/transcript/ursa transcript",
+		"/Users/skb_shak/Dropbox/my stuff/mac stickies backup",
+		"/Users/skb_shak/Dropbox/Simul8/backup nov 19/ArticleViewController.h",
+		"/Users/skb_shak/Dropbox/Simul8/backup nov 19/ArticleViewController.m",
+		"/Users/skb_shak/Documents/smiley.gif",
+		"/Users/skb_shak/Downloads/synf.ns",
+		"/Users/skb_shak/Dropbox/my stuff/links",
+		"/Users/skb_shak/Dropbox/my stuff/todo list",
+		"/Users/skb_shak/Downloads/oddities-sample-data/sample.in",
+		"/Users/skb_shak/Downloads/oddities-sample-data/sample.ans",
+		"/Users/skb_shak/Dropbox/my stuff/notes/journal.txt",
+		"/Users/skb_shak/Downloads/Sessions/manifest.json",
+		"/Users/skb_shak/Dropbox/chrome extensions/Sessions/style.css",
+		"/Users/skb_shak/Dropbox/chrome extensions/cats/manifest.json",
+		"/Users/skb_shak/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/skb_shak/Dropbox/chrome extensions/cats/popup.js",
+		"/Users/skb_shak/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/skb_shak/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/skb_shak/Downloads/search (1).php",
+		"/Users/skb_shak/Dropbox/chrome extensions/Sessions/manifest.json",
+		"/Users/skb_shak/Dropbox/code school Notes/Try iOS/level 1",
+		"/Users/skb_shak/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/Users/skb_shak/Dropbox/code school Notes/git real 1/level 6",
+		"/Users/skb_shak/Dropbox/code school Notes/git real 1/level 7",
+		"/Users/skb_shak/Dropbox/code school Notes/git real 1/level 5",
+		"/Users/skb_shak/Dropbox/chrome extensions/backups/code_backup.js",
+		"/Users/skb_shak/Dropbox/code school Notes/git real 1/level 4",
+		"/Users/skb_shak/Dropbox/code school Notes/git real 1/level 3",
+		"/Users/skb_shak/Dropbox/code school Notes/git real 1/level 2",
+		"/Users/skb_shak/Downloads/Microsoft Office 2011 v14.0.0 Volume Licensed/Torrent downloaded from Demonoid.me.txt",
+		"/Users/skb_shak/Dropbox/chrome extensions/Sessions/test_src.js",
+		"/Users/skb_shak/Dropbox/chrome extensions/Sessions/backup",
+		"/Users/skb_shak/Dropbox/chrome extensions/Simple/background.js",
+		"/Users/skb_shak/Dropbox/chrome extensions/Simple/manifest.json",
+		"/Users/skb_shak/Workspace/cef_binary_3.1453.1255_macosx/README.txt",
+		"/Users/skb_shak/Downloads/cef_binary_3.1453.1255_macosx/README.txt",
+		"/Users/skb_shak/Workspace/cef_binary_3.1453.1255_macosx/LICENSE.txt",
+		"/Users/skb_shak/Dropbox/chrome extensions/cats/popup.html",
+		"/Users/skb_shak/Dropbox/my stuff/have patience",
+		"/Users/skb_shak/Documents/schedule plan",
+		"/Users/skb_shak/Dropbox/chrome extensions/Sessions/popup.html",
+		"/Users/skb_shak/Dropbox/chrome extensions/Sessions/popup.js",
+		"/Users/skb_shak/Dropbox/mathworks todo",
+		"/Users/skb_shak/Dropbox/cs131/hw7/hw7.pl",
+		"/Users/skb_shak/Dropbox/cs131/hw7/6:5 notes",
+		"/Users/skb_shak/Dropbox/cs131/disc notes/dis-6.7.txt",
+		"/Users/skb_shak/Dropbox/astr5/Dis Notes.txt",
+		"/Users/skb_shak/Dropbox/cs131/cs131_disc_txt",
+		"/Users/skb_shak/Dropbox/cs131/rec_library.ml",
+		"/Users/skb_shak/Dropbox/cs131/mtrev-5.3.txt",
+		"/Users/skb_shak/Dropbox/cs131/disc notes/dis-5.31.txt",
+		"/Users/skb_shak/Dropbox/cs131/disc notes/dis-5.17.txt",
+		"/Users/skb_shak/Dropbox/cs131/hw6/proj6/Impl.java",
+		"/Users/skb_shak/Dropbox/cs131/practice/javapractice",
+		"/Users/skb_shak/Dropbox/cs131/practice/four/four.java",
+		"/Users/skb_shak/Dropbox/cs131/hw5/hw5.java",
+		"/Users/skb_shak/Dropbox/cs131/practice/seven/seven.java",
+		"/Users/skb_shak/Dropbox/cs131/disc notes/dis-5.10.txt",
+		"/Users/skb_shak/Dropbox/cs131/practice/seven.java",
+		"/Users/skb_shak/Downloads/dis-5.10.txt",
+		"/Users/skb_shak/Dropbox/cs131/hw5/Homework 5.html",
+		"/Users/skb_shak/Dropbox/cs131/5:22/courses.pl",
+		"/Users/skb_shak/Downloads/dis-5.31.txt",
+		"/Users/skb_shak/Dropbox/cs131/5:22/notes-5-22.txt",
+		"/Users/skb_shak/Dropbox/Simul8/backup/article view 2 tables/ArticleViewController.m",
+		"/Users/skb_shak/Dropbox/cs131/hw7/gprolog-1.4.4/INSTALL",
+		"/Users/skb_shak/Downloads/gprolog-1.4.4/COPYING",
+		"/Users/skb_shak/Dropbox/cs131/5:29 notes/notes_5_29.pl",
+		"/Users/skb_shak/Dropbox/cs131/5:29 notes/prolog-5-29.txt",
+		"/Users/skb_shak/Dropbox/cs131/5:29 notes/tsp.pl",
+		"/Users/skb_shak/Downloads/notes-5-15.java",
+		"/Users/skb_shak/Downloads/dis-5.17.txt",
+		"/Users/skb_shak/Dropbox/cs131/hw6/proj6/PopulationQuery.java",
+		"/Users/skb_shak/Downloads/prolog-5-29.txt",
+		"/Users/skb_shak/Dropbox/cs131/hw6/proj6/CensusGroup.java",
+		"/Users/skb_shak/Dropbox/cs131/hw6/proj6/CensusData.java",
+		"/Users/skb_shak/Dropbox/cs131/hw6/hw6/Impl.java",
+		"/Users/skb_shak/Dropbox/cs131/hw6/hw6/PopQueryAPI.java",
+		"/Users/skb_shak/Dropbox/cs131/hw6/hw6/PopulationQuery.java"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"link",
+			"createListFromTabs",
+			"fillActiveInfo",
+			"saveOpenTabs",
+			"is_empty",
+			"- ",
+			"ch",
+			"10 days",
+			"HUCKLEBERRYS",
+			"38",
+			"motorcycle",
+			"motorcycle Driver",
+			"37",
+			"U-turns",
+			"green curb",
+			"green curbs",
+			"White sign",
+			"White",
+			"pedestrian",
+			"cell phone",
+			"highway hypnosis",
+			"load space",
+			"15 feet",
+			"four",
+			"gap",
+			"second gap",
+			"4 second gap",
+			" ",
+			"© 1998-2014 M. Pearl\n",
+			"risk",
+			"freeway",
+			"200 feet",
+			"5 seconds before",
+			"5 seconds before changing lanes",
+			"turn signals",
+			"mountain roads",
+			"rubbernecking",
+			"supplemental",
+			"insurance",
+			"= insurance",
+			"car insurance",
+			".\n",
+			"$750",
+			"collision",
+			"financial responsibility",
+			"safety corridor",
+			"truck",
+			"passing a truck",
+			"tow",
+			"telematics",
+			"ddThe",
+			"DUI",
+			"ignition",
+			"DUI",
+			"trunk",
+			"unsealed",
+			"open, unsealed",
+			"38",
+			"quiz",
+			"3 axles",
+			"aggressive",
+			"DUI",
+			"T intersection",
+			"T ",
+			"same time",
+			"right",
+			"intersection",
+			"two vehicles",
+			"stop",
+			"insulting gestures",
+			" asleep",
+			"falling asleep",
+			"block ",
+			"enter an intersection",
+			"mount",
+			"GPS",
+			"intersection",
+			"private",
+			"japan",
+			"yellow",
+			"green",
+			"HashMap",
+			"hashmap",
+			"HashMap",
+			"false",
+			"tostr",
+			"string",
+			"”",
+			"“",
+			"post_file_second_col",
+			"pre_file_second_col",
+			"pre_file_data",
+			".meta",
+			"get_loss_rate_single_experiment",
+			"analyzeNS3",
+			"run_single",
+			"\"",
+			".write",
+			"print",
+			"/",
+			"ns_script",
+			"ns3_Le_output_file",
+			"run_ns3",
+			"run_single",
+			"script_name",
+			"get",
+			"get_loss",
+			"run_single",
+			"get_loss",
+			"entropy",
+			"update_ns_script",
+			"run",
+			"if",
+			"entropy",
+			"run_single_ns3",
+			"run_ns3",
+			"for",
+			"update",
+			"loss",
+			"create_loss",
+			"  . ",
+			"url",
+			"firstTabTitle",
+			"saveOpenTabs",
+			"fillActiveInfo",
+			"loadOpenTabs",
+			"OnPopupLoad",
+			"saveOpenTabs"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ta_example/multipath-topo.py",
+					"settings":
+					{
+						"buffer_size": 4961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4863,
+								4863
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3036.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "mininet/examples/emptynet.py",
+					"settings":
+					{
+						"buffer_size": 960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 43.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true
+}
