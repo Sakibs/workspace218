@@ -53,13 +53,15 @@ class SimpleSwitch(app_manager.RyuApp):
 
     @set_ev_cls(ofp_event.EventOFPPacketIn, MAIN_DISPATCHER)
     def _packet_in_handler(self, ev):
-        msg = ev.msg
-        datapath = msg.datapath
-        ofproto = datapath.ofproto
+        msg = ev.msg                    # Object representing a packet_in data structure.
+        datapath = msg.datapath         # Switch Datapath ID
+        ofproto = datapath.ofproto      # OpenFlow Protocol version the entities negotiated.
 
+        # inspect packet headers for packet types
         pkt = packet.Packet(msg.data)
         eth = pkt.get_protocol(ethernet.ethernet)
 
+        # extract eth header details
         dst = eth.dst
         src = eth.src
 
@@ -89,6 +91,8 @@ class SimpleSwitch(app_manager.RyuApp):
         out = datapath.ofproto_parser.OFPPacketOut(
             datapath=datapath, buffer_id=msg.buffer_id, in_port=msg.in_port,
             actions=actions, data=data)
+
+        # send message to switch
         datapath.send_msg(out)
 
     @set_ev_cls(ofp_event.EventOFPPortStatus, MAIN_DISPATCHER)

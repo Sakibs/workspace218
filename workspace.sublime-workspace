@@ -528,10 +528,50 @@
 			}
 		},
 		{
+			"file": "my_switch.py",
+			"settings":
+			{
+				"buffer_size": 886,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "mininet/examples/emptynet.py",
 			"settings":
 			{
 				"buffer_size": 960,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mininet/examples/controllers.py",
+			"settings":
+			{
+				"buffer_size": 1051,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "custom_topo.py",
+			"settings":
+			{
+				"buffer_size": 1118,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ryu/app/simple_switch.py",
+			"settings":
+			{
+				"buffer_size": 3954,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ryu/app/simple_switch_13.py",
+			"settings":
+			{
+				"buffer_size": 4596,
 				"line_ending": "Windows"
 			}
 		}
@@ -580,6 +620,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Sakib/Dropbox/dev/iview_contiguous_subseq_max_sum.cpp",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Sakib/Dropbox/cs218/final_proj/workspace218/mininet/examples/multitest.py",
 		"/C/Users/Sakib/Dropbox/cs170a/disc_4_notes.txt",
 		"/C/Users/Sakib/Documents/get-pip.py",
 		"/Users/skb_shak/Dropbox/Simul8/new api query urls",
@@ -704,10 +747,7 @@
 		"/Users/skb_shak/Dropbox/cs131/hw6/proj6/PopulationQuery.java",
 		"/Users/skb_shak/Downloads/prolog-5-29.txt",
 		"/Users/skb_shak/Dropbox/cs131/hw6/proj6/CensusGroup.java",
-		"/Users/skb_shak/Dropbox/cs131/hw6/proj6/CensusData.java",
-		"/Users/skb_shak/Dropbox/cs131/hw6/hw6/Impl.java",
-		"/Users/skb_shak/Dropbox/cs131/hw6/hw6/PopQueryAPI.java",
-		"/Users/skb_shak/Dropbox/cs131/hw6/hw6/PopulationQuery.java"
+		"/Users/skb_shak/Dropbox/cs131/hw6/proj6/CensusData.java"
 	],
 	"find":
 	{
@@ -726,6 +766,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mac",
+			"ofproto",
+			"L2Switch",
+			"ofp_parser",
+			"OFPActionOutput",
+			"add_flow",
+			"parser.OFPMatch",
+			"add_flow",
+			"ofpmatch",
+			"ofppacketOut",
+			"add_flow",
+			"app_manager",
+			"CPULimitedHost",
+			"TCLink",
+			"OVSSwitch",
+			"UserSwitch",
+			"CPULimitedHost",
+			"addController",
+			"info",
+			"setLogLevel",
+			"CLI",
+			"fixNetworkManager",
 			"link",
 			"createListFromTabs",
 			"fillActiveInfo",
@@ -831,29 +893,7 @@
 			"run_ns3",
 			"run_single",
 			"script_name",
-			"get",
-			"get_loss",
-			"run_single",
-			"get_loss",
-			"entropy",
-			"update_ns_script",
-			"run",
-			"if",
-			"entropy",
-			"run_single_ns3",
-			"run_ns3",
-			"for",
-			"update",
-			"loss",
-			"create_loss",
-			"  . ",
-			"url",
-			"firstTabTitle",
-			"saveOpenTabs",
-			"fillActiveInfo",
-			"loadOpenTabs",
-			"OnPopupLoad",
-			"saveOpenTabs"
+			"get"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -872,7 +912,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -887,8 +927,8 @@
 						"selection":
 						[
 							[
-								4863,
-								4863
+								1420,
+								1420
 							]
 						],
 						"settings":
@@ -897,13 +937,42 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3036.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "my_switch.py",
+					"settings":
+					{
+						"buffer_size": 886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "mininet/examples/emptynet.py",
 					"settings":
 					{
@@ -914,8 +983,8 @@
 						"selection":
 						[
 							[
-								380,
-								370
+								566,
+								566
 							]
 						],
 						"settings":
@@ -925,7 +994,116 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 207.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mininet/examples/controllers.py",
+					"settings":
+					{
+						"buffer_size": 1051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1051,
+								1051
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "custom_topo.py",
+					"settings":
+					{
+						"buffer_size": 1118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1001,
+								1001
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "ryu/app/simple_switch.py",
+					"settings":
+					{
+						"buffer_size": 3954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2620,
+								2620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1201.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "ryu/app/simple_switch_13.py",
+					"settings":
+					{
+						"buffer_size": 4596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3059,
+								3059
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1512.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -964,6 +1142,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
 	"replace":
 	{
 		"height": 76.0
@@ -989,6 +1171,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 191.0,
+	"side_bar_width": 107.0,
 	"status_bar_visible": true
 }
