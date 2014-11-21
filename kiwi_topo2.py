@@ -21,18 +21,16 @@ setLogLevel('info')
 class MyTopoClass(Topo):
     def __init__(self):
         super(MyTopoClass, self).__init__()
-        #leftHost  = self.addHost('h1', ip='172.31.1.1/24')
-        leftHost  = self.addHost('h1')
-        rightHost  = self.addHost('h2')
-        #rightHost = self.addHost('h2', ip='172.31.1.2/24')
-        oneSwitch = self.addSwitch('s1', dpid='0000000000000099',
+        h1  = self.addHost('h1', ip='10.0.0.1')
+        h2  = self.addHost('h2', ip='10.0.0.2')
+        s1 = self.addSwitch('s1', dpid='0000000000000001',
                                    listenPort=6634)
-        twoSwitch = self.addSwitch('s2', dpid='0000000000000100',
+        s2 = self.addSwitch('s2', dpid='0000000000000002',
                                    listenPort=6634)
-        self.addLink(leftHost,  oneSwitch)
-        self.addLink(leftHost,  twoSwitch)
-        self.addLink(oneSwitch, rightHost)
-        self.addLink(twoSwitch, rightHost)
+        self.addLink(h1, s1)
+        self.addLink(h1, s2)
+        self.addLink(h2, s2)
+        self.addLink(h2, s1)
 
 ryu = RemoteController('c1', ip='127.0.0.1', port=6633)
 net = Mininet(topo=MyTopoClass(), switch=OVSSwitch, build=False)
