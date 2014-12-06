@@ -28,6 +28,8 @@ class L2Switch(app_manager.RyuApp):
             command=ofproto.OFPFC_ADD, idle_timeout=0, hard_timeout=0,
             priority=ofproto.OFP_DEFAULT_PRIORITY,
             flags=ofproto.OFPFF_SEND_FLOW_REM, actions=actions)
+
+        self.logger.info("# Added flow")
         datapath.send_msg(mod)
 
 
@@ -39,6 +41,8 @@ class L2Switch(app_manager.RyuApp):
         ofp = datapath.ofproto
         ofp_parser = datapath.ofproto_parser
         dpid = datapath.id
+
+        self.logger.info(datapath)
 
 
         eth_h1 = '00:00:00:00:00:01'
@@ -56,12 +60,11 @@ class L2Switch(app_manager.RyuApp):
             # set output ports when routing to specific destinations
             act_s1_h1 = [ofp_parser.OFPActionOutput(s1_p_h1)]
             act_s1_h2 = [ofp_parser.OFPActionOutput(s1_p_s2)]
-            t = self.add_flow(datapath, 1, eth_h1, act_s1_h1)
-            self.logger.info(t)
+            self.add_flow(datapath, 1, eth_h1, act_s1_h1)
             self.add_flow(datapath, 2, eth_h1, act_s1_h1)
             self.add_flow(datapath, 1, eth_h2, act_s1_h2)
             self.add_flow(datapath, 2, eth_h2, act_s1_h2)
-        elif dpid == 1:
+        elif dpid == 2:
             # set output ports when routing to specific destinations
             act_s2_h1 = [ofp_parser.OFPActionOutput(s2_p_s1)]
             act_s2_h2 = [ofp_parser.OFPActionOutput(s2_p_h2)]
