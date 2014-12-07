@@ -42,52 +42,38 @@ class L2Switch(app_manager.RyuApp):
         ofp_parser = datapath.ofproto_parser
         dpid = datapath.id
 
+        self.logger.info(datapath)
+
+
         eth_h1 = '00:00:00:00:00:01'
         eth_h2 = '00:00:00:00:00:02'
-        eth_HS = '00:00:00:00:00:10'
-        eth_IG = '00:00:00:00:00:20'
 
-        # sps h1 is communcicating with HS. If HS sends to h1 use 100 mb link directly to h1
+        s1_p_h1 = 1
+        s1_p_s2 = 2
+        s2_p_h2 = 1
+        s2_p_s1 = 2
 
-        if dpid == 16:
-            # num in ports in switch
-            n_ports = 3
-            # map destinations to output ports of switch
-            mapping = {eth_h1: 1, eth_h2: 2, eth_HS: 3, eth_IG: 3}
+        self.logger.info(dpid)
 
-            self.setup_flows(datapath, ofp_parser, n_ports, mapping)
-
+        # set actions at switch 1
         if dpid == 1:
-            # num in ports in switch
-            n_ports = 3
-            # map destinations to output ports of switch
-            mapping = {eth_h1: 1, eth_h2: 1, eth_HS: 2, eth_IG: 3}
-
-            self.setup_flows(datapath, ofp_parser, n_ports, mapping)
-
-        if dpid == 2:
-            # num in ports in switch
-            n_ports = 3
-            # map destinations to output ports of switch
-            mapping = {eth_h1: 2, eth_h2: 3, eth_HS: 1, eth_IG: 3}
-
-            self.setup_flows(datapath, ofp_parser, n_ports, mapping)
-
-        if dpid == 3:
-            # num in ports in switch
-            n_ports = 3
-            # map destinations to output ports of switch
-            mapping = {eth_h1: 3, eth_h2: 3, eth_HS: 2, eth_IG: 1}
-
-            self.setup_flows(datapath, ofp_parser, n_ports, mapping)
+            # set output ports when routing to specific destinations
+            act_s1_h1 = [ofp_parser.OFPActionOutput(s1_p_h1)]
+            act_s1_h2 = [ofp_parser.OFPActionOutput(s1_p_s2)]
+            self.add_flow(datapath, 1, eth_h1, act_s1_h1)
+            self.add_flow(datapath, 2, eth_h1, act_s1_h1)
+            self.add_flow(datapath, 1, eth_h2, act_s1_h2)
+            self.add_flow(datapath, 2, eth_h2, act_s1_h2)
+        elif dpid == 2:
+            # set output ports when routing to specific destinations
+            act_s2_h1 = [ofp_parser.OFPActionOutput(s2_p_s1)]
+            act_s2_h2 = [ofp_parser.OFPActionOutput(s2_p_h2)]
+            self.add_flow(datapath, 1, eth_h1, act_s2_h1)
+            self.add_flow(datapath, 2, eth_h1, act_s2_h1)
+            self.add_flow(datapath, 1, eth_h2, act_s2_h2)
+            self.add_flow(datapath, 2, eth_h2, act_s2_h2)
 
         self.logger.info('*****************************')
-
-    def setup_flows(self, datapath, ofp_parser, n_ports, out_map):
-        for i in range(1, n_ports+1):
-            for dst,out_port in out_map.items():
-                action = [ofp_parser.OFPActionOutput(out_port)]
-                self.add_flow(datapath, i, dst, action)
 
 
     @set_ev_cls(ofp_event.EventOFPPacketIn, MAIN_DISPATCHER)
